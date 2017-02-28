@@ -3,16 +3,23 @@
 <head><title>Random-Image</title></head>
 <body>
 <script type="text/javascript">
-var images = [],
+var images = [];
 index = 0;
-	
-images[0] = "images0.jpeg";
-images[1] = "images1.jpeg";
-images[2] = "images2.jpeg";
-	
-theimage = Math.floor(Math.random()*images.length);
+
+images[0] = "Deadpool.jpg";
+images[1] = "Deadpool1.jpg";
+images[2] = "Deadpool2.jpg";
+images[3] = "Deadpool3.jpg";
+images[4] = "Deadpool4.jpg";
+images[5] = "Deadpool5.jpg";
+images[6] = "Deadpool6.jpg";
+images[7] = "Deadpool7.jpg";
+
+theimage = Math.floor(Math.random() * images.length);
 document.write(images[theimage]);
+document.write("<img src= "+images[theimage]+ ">");
 //done
 </script>
+
 </body>
 </html>
